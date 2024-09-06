@@ -85,5 +85,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "003f+0fe+006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f3+004+0f!00e+0f!004+0f!00e+0f!004+0f!00c+0f3+004+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0fe+003f+"
+  "collisions": "003f+0fe+006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f3+004+0f!00e+0f!004+0f!00e+0f!004+0f!00c+0f3+004+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0fe+003f+",
+  "notes": "$States\n1. Has heard initial dialogue"
 }
