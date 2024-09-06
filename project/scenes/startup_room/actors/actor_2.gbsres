@@ -1,0 +1,40 @@
+{
+  "_resourceType": "actor",
+  "id": "8ca68cc4-271e-4891-9b84-b0997c5e421d",
+  "_index": 1,
+  "symbol": "actor_1",
+  "prefabId": "",
+  "name": "",
+  "x": 9,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e14ecce6-aaf3-441d-9639-ac82756c497c",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Why do you have a\ntable?",
+          "You can't even see\non top if it.",
+          "Short bitch."
+        ],
+        "avatarId": ""
+      },
+      "id": "bf0d3705-c1d7-4aa8-bfd8-0cee33b8648d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

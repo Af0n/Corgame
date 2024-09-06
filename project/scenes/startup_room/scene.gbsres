@@ -1,0 +1,87 @@
+{
+  "_resourceType": "scene",
+  "id": "ba73c086-b057-41fb-9f59-f8a87e0880d3",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Startup Room",
+  "symbol": "scene_1",
+  "x": 104,
+  "y": 96,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "ad49789f-a42f-48e1-b69b-c3aa94b1a43f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "dc02be9d-1ded-416d-8be7-9ab88c75946f",
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "L0",
+        "flag": 0,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You awaken to the\nsweet tones of\nMariah Corgi...",
+                "You slept through\nyour alarm...",
+                "...",
+                "Again..."
+              ],
+              "avatarId": ""
+            },
+            "id": "e96e06c5-b7fa-4cdd-b718-eeb6108bdc3c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Corgins! Are you\nawake?",
+                "It's time for\nbreakfast!"
+              ],
+              "avatarId": "7f03d8d5-8554-40ec-84a9-024837d9df6e"
+            },
+            "id": "32479245-aa6d-49a5-8d02-a1fa4b182b9f"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "L0",
+              "flag1": true,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "a0095adf-2e51-4c35-82c9-38bbfa79aa24"
+          }
+        ]
+      },
+      "id": "c5e9b041-60e9-4a06-a61c-99385fa6f976"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "003f+0fe+006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f3+004+0f!00e+0f!004+0f!00e+0f!004+0f!00c+0f3+004+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0fe+003f+"
+}

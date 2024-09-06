@@ -1,0 +1,15 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "ba73c086-b057-41fb-9f59-f8a87e0880d3__L0",
+      "name": "States",
+      "symbol": "var_states"
+    },
+    {
+      "id": "a446aaeb-b8c8-4167-a332-d095c77271b2__L0",
+      "name": "States",
+      "symbol": "var_states_0"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "_resourceType": "actor",
+  "id": "a446aaeb-b8c8-4167-a332-d095c77271b2",
+  "_index": 0,
+  "symbol": "actor_0",
+  "prefabId": "",
+  "name": "",
+  "x": 14,
+  "y": 11,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9db73068-8014-4865-b84a-5076df8a243b",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "L0",
+        "flag": 0,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Go eat!\nI'll be here :3"
+              ],
+              "avatarId": "8c0b4a17-038f-4685-b5b6-df72005a989b"
+            },
+            "id": "aa6451b1-666e-418f-8647-f25602229495"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "It's your favorite\ntoy, Jumpy!"
+              ],
+              "avatarId": ""
+            },
+            "id": "e61dcd4a-a461-4949-9110-28e29e2aa99d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hello Corgins!\nGood morning. :3",
+                "I heard your\nmom calling! XD",
+                "You should go \nand eat. :o",
+                "Come talk to me\nafter, okay? :P"
+              ],
+              "avatarId": "8c0b4a17-038f-4685-b5b6-df72005a989b"
+            },
+            "id": "b18d5768-b3a7-4209-83e3-a0ccb3c8762f"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "L0",
+              "flag1": true,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "e8a0d8d2-235e-4b54-b8bc-31c495b2b0db"
+          }
+        ]
+      },
+      "id": "2410110f-4da8-4776-9c5b-c3c00c387a0c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

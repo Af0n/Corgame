@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "5bc965a2-6131-4233-85fe-5b8245ec29df",
+  "_index": 2,
+  "symbol": "actor_2",
+  "prefabId": "",
+  "name": "",
+  "x": 5,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "21af051e-dc0f-4966-98b5-1368d414a7b1",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You're not tired\nanymore..."
+        ],
+        "avatarId": ""
+      },
+      "id": "d230ba76-c22e-4879-aada-463a33cd151b"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
