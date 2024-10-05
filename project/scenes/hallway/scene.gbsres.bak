@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "77a246f0-c651-4756-b1e5-f513748a842b",
+  "_index": 3,
+  "name": "Hallway",
+  "backgroundId": "297babfd-f457-40e8-af65-9fc02261020f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 400,
+  "y": 32,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

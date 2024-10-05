@@ -22,7 +22,7 @@
       "args": {
         "variable": "L0",
         "flag": 0,
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -34,11 +34,11 @@
               "text": [
                 "You awaken to the\nsweet tones of\nMariah Corgi...",
                 "You slept through\nyour alarm...",
-                "...",
+                "",
                 "Again..."
               ],
               "avatarId": "",
-              "__section": "layout",
+              "__section": "text",
               "position": "bottom"
             },
             "id": "e96e06c5-b7fa-4cdd-b718-eeb6108bdc3c"
